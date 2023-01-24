@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <LINk rel="icon" type="image" href="1.png"></LINk>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+      <style class="background">
+        
+      
+      </style>
+    <link rel="stylesheet" href="JS.js">
+      
+  
+  </head>
+
+
+
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NMR</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/@NMR" target="_blank">Youtube</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UCispQJsJZmwi9ODjzqnDxSQ/join" target="_blank">Subscribe</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://snapchat.com/add/ahmedalnamer" target="_blank">Snapchat</a></li>
+                <li><a class="dropdown-item" href="https://instagram.com/ahmedalnimr" target="_blank">Instgram</a></li>
+                <li><a class="dropdown-item" href="https://wa.me/966554411940" target="_blank">Business Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="subheadingcontenaier"
+    
+    <div><center><h4>Welcome to Ahmed Al-namer Website</h4></center></div>
+
+<!-- Main -->
+</div>
+      <div class="intro">
+       <p><center> welcome to my Website</center></p>
+        <p><center>Lets try to Test your knowledge </center></p>
+
+</div>
+    
+<!-- Quiz -->
+<div>
+        <div id="wrapper">
+
+            <div id="form-box">
+                <form>
+                    <select id="language">
+                    <option  value="HTML"selected="selected">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JS">Javascript</option>
+                    </select> 
+                    <a href="#lb3" class="choose-lang">Test Skills</a>
+                    </form>
+            </div>    
+        </div>
+        
+
+
+
+
+
+
+        
+        <div class="quiz">
+            
+            <div id="info">
+                <div id="score">Score: 0</div>
+                <div id="ques-left">Question:1/20</div>
+            </div>
+            <div id="ques-view">
+               
+            </div>
+            <div class="question">
+            <h1>Question</h1>
+            </div>
+            
+            <div class="choice">
+                <div class="options"><input type="radio" name="options" value="option1" id="opt0"><label for="opt0" id="lb0">Option1</label></div>
+                <div class="options"><input type="radio" name="options" value="option2" id="opt1"><label for="opt1" id="lb1">Option2</label></div>
+                <div class="options"><input type="radio" name="options" value="option3" checked="checked" id="opt2"><label for="opt2" id="lb2">Option3</label></div>
+                <div class="options"><input type="radio" name="options" value="option4" id="opt3"><label for="opt3" id="lb3">Option4</label></div>   
+            </div>
+
+             <div class="ans-btn">
+                <button type="button" class="submit-answer">Submit Answer</button>
+                 <a href="#display-final-score" type="button" class="view-results">View Results</a>
+            </div>
+        
+        </div>
+        
+        <div class="final-result">
+            <h1>The Quiz is Over</h1>
+            <div class="solved-ques-no">You Solved 10 questions of HTML</div>
+            <div class="right-wrong">3 Were Right and 4 were Wrong</div>
+            <div id="display-final-score">Your Final Score is: 35</div>
+            <div class="remark">Remark: Satisfactory, Keep trying.</div>
+            <button id="restart">Restart Quiz</button>        
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+</div>    
+    
+
+
+<!-- footer -->
+    <div>
+          <footer class="footer">
+          <span class="text-muted">All RightReserved by NMR 2023</span>
+        </div>
+      </footer>
+    </div>
+      
+
+
+  </body>
+</html>

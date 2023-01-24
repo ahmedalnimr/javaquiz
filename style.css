@@ -1,0 +1,43 @@
+.body {
+    min-height: 100vh;
+}
+
+.subheadingcontenaier {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    box-shadow: 10px 5px 5px rgb(19, 6, 6);
+    opacity: 0.70;
+}
+
+
+p {
+    text-align: center;
+    color: rgb(2, 3, 3);
+    font-size: large;
+}
+
+.intro {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 10px 5px 5px rgb(19, 6, 6);
+    opacity: 0.70;
+
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    padding: 15px;
+    box-shadow: 10px 5px 5px rgb(19, 6, 6);
+    opacity: 0.70;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+
