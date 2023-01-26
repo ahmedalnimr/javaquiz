@@ -98,11 +98,12 @@
     margin-top: 10px;
 }
 .correct{
-    background-color: #2ecc71;
+    background-color: transparent;
+    color: transparent;
 }
 .incorrect{
-    background-color: #fc5c65;
-    color: #fff;
+    background-color: transparent;
+    color: transparent;
 }
 
 .question{
@@ -138,6 +139,7 @@
 .ans-btn{
     background-color: #fff;
     padding: 2%;
+    
 }
 
 .submit-answer{
@@ -149,6 +151,29 @@
     transition: background-color 0.3s,border 0.2s, color 0.2s;
 }
 
+/**********/
+.options{
+    background-color:rgb(219, 217, 217);
+    border: 2px solid #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+
+
+.options:hover{
+    background-color: #FF9933;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+/**********/
 .submit-answer:hover{
     
     background-color: #FF9933;
@@ -218,6 +243,7 @@
     font-size: 90%;
 }
 
+/* screen size */
 
 @media only screen and (max-width: 1250px) {
     .options{
